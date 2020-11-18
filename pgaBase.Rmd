@@ -1,0 +1,37 @@
+---
+title: "Nascar Tire Report"
+author: "F. T .M. McKay, Data Scientist"
+date: "`r format(Sys.Date(),'%A, %B %d, %Y')`"
+description:  >
+  Template for creting an article for submission to RPubs
+output: 
+  ioslides_presentation:
+    logo:  C:\RepTemplates\PeerGradedAssignment\images\nascar2.jpeg
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r child="text/Abstract.Rmd"}
+```
+
+```{r child="text/requiredItems.Rmd"}
+```
+
+
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+
+

@@ -1,0 +1,43 @@
+---
+title: "Nascar Tire Report"
+author: "F. T .M. McKay, Data Scientist"
+date: "`r format(Sys.Date(),'%A, %B %d, %Y')`"
+description:  >
+  Template for creting an article for submission to RPubs
+output: 
+  ioslides_presentation:
+    logo:  C:\RepTemplates\PeerGradedAssignment\images\nascar2.jpeg
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Abstract
+
+This is an R Markdown presentation required to complete a peer graded assignment, the details of which follow on the next slide. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Required Items for Assignment Complete
+
+- Four Items Above (Title, Author, Date, Presentation Summary/Template Description) 
+- This Bulleted List (3 or More Items, Numbered or Unnumbered)
+- Plotting of Built-In 'pressure' Dataset
+- Table of top 6 rows of the Built-In 'cars' Dataset
+- All Knit to HTML with Custom Theme and Published to RPubs
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+
+

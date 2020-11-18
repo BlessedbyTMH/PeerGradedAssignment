@@ -1,0 +1,51 @@
+---
+title: "Nascar Tire Report"
+author: "F. T .M. McKay, Data Scientist"
+date: "`r format(Sys.Date(),'%A, %B %d, %Y')`"
+output: 
+  html_document:
+    theme: yeti
+    highlight: espresso
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<center><hr>
+![](images/nascar1.jpeg){width=50}
+![](images/nascar2.jpeg){width=50}
+![](images/nascar3.jpeg){width=50}
+![](images/nascar4.jpeg){width=50}
+![](images/nascar5.jpeg){width=50}
+<hr></center>
+```{r child="text/Abstract.Rmd"}
+```
+
+
+
+```{r child="text/requiredItems.Rmd"}
+```
+
+
+
+
+
+## Including Plot
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+## Including Table
+
+
+```{r cars}
+summary(cars)
+```
+
+To install the development version of this package from Github, you may use the `devtools` package to run this R code `devtools::install_github('BlessedbyTMH/PeerGradedAssignment')`.

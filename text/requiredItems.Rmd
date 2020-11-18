@@ -1,0 +1,7 @@
+## Required Items for Assignment Completion
+
+- Four Items Above (Title, Author, Date, Presentation Summary/Template Description) 
+- This Bulleted List (3 or More Items, Numbered or Unnumbered)
+- Plotting of Built-In 'pressure' Dataset
+- Table of top 6 rows of the Built-In 'cars' Dataset
+- All Knit to HTML with Custom Theme and Published to RPubs
